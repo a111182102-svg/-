@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Arial, "Noto Sans TC", sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: 'Courier New', monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#fdfdfd] text-black font-sans antialiased overflow-x-hidden;
+    /* Radial dot pattern */
+    background-image: radial-gradient(rgba(209, 213, 219, 0.4) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+@layer utilities {
+  .brutalist-block {
+    @apply border-2 border-black bg-white shadow-[8px_8px_0px_0px_#3b82f6] transition-all hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#3b82f6];
+  }
+
+  .brutalist-block-emerald {
+    @apply border-2 border-black bg-white shadow-[8px_8px_0px_0px_#10b981] transition-all hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_#10b981];
+  }
+
+  .accent-border-blue {
+    @apply border-l-8 border-[#3b82f6] pl-6;
+  }
+
+  .accent-border-emerald {
+    @apply border-l-8 border-[#10b981] pl-6;
+  }
+  
+  .underline-thick-emerald {
+    @apply underline decoration-8 decoration-[#10b981] underline-offset-4;
+  }
+  
+  .underline-thick-blue {
+    @apply underline decoration-8 decoration-[#3b82f6] underline-offset-4;
+  }
+  
+  .floating-shape-blue {
+    @apply absolute w-64 h-64 border-[40px] border-[#3b82f6] opacity-10 rounded-full pointer-events-none;
+  }
+
+  .floating-shape-emerald {
+    @apply absolute w-48 h-12 bg-[#10b981] opacity-20 rotate-12 pointer-events-none;
+  }
+  
+  .tag-label {
+    @apply bg-black text-white px-4 py-1 text-xs font-mono tracking-widest inline-block;
+  }
+}
