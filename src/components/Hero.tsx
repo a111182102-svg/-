@@ -55,9 +55,9 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 brutalist-block bg-white overflow-hidden rounded-full border-[12px] border-[#3b82f6] !shadow-[16px_16px_0px_0px_#111]">
                <img 
-                 src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" 
-                 alt="Portrait abstract" 
-                 className="w-full h-full object-cover mix-blend-luminosity opacity-80"
+                 src="/profile.png.jpeg" 
+                 alt="Portrait" 
+                 className="w-full h-full object-cover"
                />
             </div>
             
