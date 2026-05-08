@@ -55,7 +55,7 @@ export default function Hero() {
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 brutalist-block bg-white overflow-hidden rounded-full border-[12px] border-[#3b82f6] !shadow-[16px_16px_0px_0px_#111]">
                <img 
-                 src="/profile.png.jpeg" 
+                 src="./profile.jpg"
                  alt="Portrait" 
                  className="w-full h-full object-cover"
                />
