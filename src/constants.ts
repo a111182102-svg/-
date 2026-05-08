@@ -95,7 +95,7 @@ export const PROJECTS = [
   {
     type: 'standard',
     title: '可愛人物頭像 / 3D AVATAR DESIGN',
-    image: '/project.png.png',
+    image: 'public/project.png.png',
     tags: ['3D Modeling', 'Character Design', 'Avatar'],
     description: `客製化的可愛人物頭像設計專案。\n\n以生動的眼神與精緻的服裝細節，營造出充滿生命力的角色形象。結合了現代感與童趣，適合用於個人品牌網站、社群媒體設定或是數位名片。展示出對於細節捕捉以及風格塑造的設計能力。`
   },
