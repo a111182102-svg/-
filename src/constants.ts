@@ -112,28 +112,28 @@ export const PROJECTS = [
         title: '啟程與那霸初探',
         color: 'text-[#3b82f6]',
         items: ['13:00 落地與安置 (抵達機場，搭單軌至市區)', '16:00 懸崖上的神聖 (參訪波上宮)', '入夜 炭火與微醺 (串角串燒 naha)', '21:00 回房休息儲備體力'],
-        video: '/video1.mp4'
+        video: 'public/video1.mp4'
       },
       {
         day: '02',
         title: '海風、生態與血拼',
         color: 'text-[#3b82f6]',
         items: ['10:00 晨間療癒 (瀨長島觀賞飛機/塔可飯)', '13:30 DMM 水族館最新科技海洋生態', '15:30 Ashibinaa Outlet 痛快爆買', '晚間 極致海鮮盛宴 (目利きの銀次)', '21:00 休息'],
-        video: '/video2.mp4'
+        video: 'public/video2.mp4'
       },
       {
         day: '03',
         title: '南部奇境與熱血之夜',
         color: 'text-[#3b82f6]',
         items: ['09:00 深入地心 (玉泉洞探索鐘乳石)', '11:00 體驗琉球文化 (王國村 / 園內午餐)', '14:30 祈福尋蹤 (探訪達摩寺)', '晚間 能量釋放 (Yakiniku King 燒肉)', '20:00 Round 1 Stadium 狂歡'],
-        video: '/video3.mp4'
+        video: 'public/video3.mp4'
       },
       {
         day: '04',
         title: '西岸異國風與購物衝刺',
         color: 'text-[#3b82f6]',
         items: ['09:30 異國晨光 (美國村拍照逛街)', '午間 美式經典 (A&W 漢堡)', '15:00 終極採購任務 (Aeon Mall)', '20:00 暖心收尾 (暖暮拉麵)', '飯後回飯店散步休息'],
-        video: '/video4.mp4'
+        video: 'public/video4.mp4'
       },
       {
         day: '05',
