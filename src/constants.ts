@@ -53,7 +53,7 @@ export const SKILLS = {
     { name: '英文', level: '精通', cert: 'TOEIC 676' },
     { name: '日文', level: '略懂', cert: 'N2' },
     { name: '韓文', level: '普通', cert: 'TOPIK I' },
-    { name: '台語', level: '精通', cert: '' }
+    { name: '台語', level: '精通', cert: 'EZ' }
   ],
   professional: [
     {
