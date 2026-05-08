@@ -73,14 +73,14 @@ export const SKILLS = {
     {
       category: '辦公應用軟體',
       items: [
-        'Microsoft Office: Word、Excel、Outlook、Powerpoint',
+        'Microsoft Office: Word、Excel、Powerpoint',
         'iWork: Pages、Numbers、Keynote'
       ]
     },
     {
       category: '專案應用軟體',
       items: [
-        'Google Workspace: Gmail、Calendar、Drive、Meet、Sites',
+        'Google Workspace: Gmail、Drive、Meet',
         'Asana、Trello'
       ]
     }
