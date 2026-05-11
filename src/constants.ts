@@ -55,7 +55,7 @@ export const SKILLS = {
     { name: '韓文', level: '普通', cert: 'TOPIK I' },
     { name: '台語', level: '精通', cert: 'EZ' }
   ],
-  專業證照: [
+  certificates: [
     {
       category: '四小證',
       items: ['基本安全', '基礎滅火','基礎急救','救生艇筏']
