@@ -55,18 +55,18 @@ export const SKILLS = {
     { name: '韓文', level: '普通', cert: 'TOPIK I' },
     { name: '台語', level: '精通', cert: 'EZ' }
   ],
-  certificates: [
+  professional: [
     {
-      category: '四小證',
-      items: ['基本安全','基礎滅火','基礎急救','救生艇筏']
+      category: '顧客關係管理',
+      items: ['會員經營', '會員行銷']
     },
     {
-      category: '證照',
-      items: ['進階滅火','醫療急救','航行當值']
+      category: '品牌行銷',
+      items: ['社群行銷', '行銷策略', '異業合作', '廣告投放', '廣告投放策略制定']
     },
     {
-      category: '其他證照',
-      items: ['無']
+      category: '電商官網管理',
+      items: ['GA', 'Search Console', '品牌金流', '物流管理', '商品訂單管理']
     }
   ],
   software: [
