@@ -69,22 +69,7 @@ export const SKILLS = {
       items: ['無']
     }
   ],
-  software: [
-    {
-      category: '辦公應用軟體',
-      items: [
-        'Microsoft Office: Word、Excel、Powerpoint',
-        'iWork: Pages、Numbers、Keynote'
-      ]
-    },
-    {
-      category: '專案應用軟體',
-      items: [
-        'Google Workspace: Gmail、Drive、Meet',
-        'Asana、Trello'
-      ]
-    }
-  ],
+  
   certificates: [
     'Google Analytics (分析) 個人認證資格',
     'Google Ads 搜尋廣告認證'
