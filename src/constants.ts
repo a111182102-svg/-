@@ -68,11 +68,6 @@ export const SKILLS = {
       category: '其他證照',
       items: ['無']
     }
-  ],
-  
-  certificates: [
-    'Google Analytics (分析) 個人認證資格',
-    'Google Ads 搜尋廣告認證'
   ]
 };
 
