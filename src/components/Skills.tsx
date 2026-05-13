@@ -37,7 +37,7 @@ export default function Skills() {
           {/* Languages */}
           <motion.div variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true }} className="brutalist-block p-8">
             <h3 className="text-xl font-bold mb-6 font-mono text-[#3b82f6]">LANGUAGE</h3>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {SKILLS.languages.map((lang, i) => (
                 <motion.div key={i} variants={itemVariants} className="p-4 border-2 border-gray-100 bg-gray-50">
                   <div className="flex justify-between items-end mb-2">
@@ -50,7 +50,7 @@ export default function Skills() {
             </div>
           </motion.div>
 
-          {/* Professional Skills */}
+          {/* Professional Skills (這裡對應你的專業證照) */}
           <motion.div variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true }} className="brutalist-block p-8 !shadow-[8px_8px_0px_0px_#10b981]">
             <h3 className="text-xl font-bold mb-6 font-mono text-[#10b981]">PROFESSIONAL</h3>
             <div className="space-y-6">
@@ -64,35 +64,6 @@ export default function Skills() {
                       </span>
                     ))}
                   </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Software Skills */}
-          <motion.div variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true }} className="brutalist-block p-8 md:col-span-2">
-             <h3 className="text-xl font-bold mb-6 font-mono text-[#3b82f6]">SOFTWARE</h3>
-             <div className="grid md:grid-cols-2 gap-8">
-               {SKILLS.software.map((sw, i) => (
-                 <motion.div key={i} variants={itemVariants}>
-                   <h4 className="font-bold text-md mb-3 border-l-4 border-black pl-3">{sw.category}</h4>
-                   <ul className="list-disc list-inside space-y-2 text-gray-700 font-mono text-sm leading-relaxed">
-                     {sw.items.map((item, j) => (
-                       <li key={j}>{item}</li>
-                     ))}
-                   </ul>
-                 </motion.div>
-               ))}
-             </div>
-          </motion.div>
-
-          {/* Certifications */}
-          <motion.div variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true }} className="brutalist-block p-8 md:col-span-2 bg-black text-white !shadow-[8px_8px_0px_0px_#10b981]">
-            <h3 className="text-xl font-bold mb-6 font-mono text-[#10b981]">CERTIFICATIONS</h3>
-            <div className="flex flex-wrap gap-4">
-              {SKILLS.certificates.map((cert, i) => (
-                <motion.div key={i} variants={itemVariants} className="border-2 border-white px-6 py-2 font-mono text-sm bg-white/10">
-                  {cert}
                 </motion.div>
               ))}
             </div>
