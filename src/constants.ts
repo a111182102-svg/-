@@ -79,8 +79,20 @@ export const PROJECTS = [
     budget: 'NT$ 25,000 - 35,000',
     description: `從神話秘境到美式海岸，一次收齊的島嶼巡禮。`,
     itinerary: [
-      { day: '01', title: '啟程與那霸初探', color: 'text-[#3b82f6]', items: ['13:00 落地與安置', '16:00 波上宮'], video: './video1.mp4' },
-      { day: '05', title: '海鮮晨光與滿載而歸', color: 'text-[#10b981]', items: ['牧志公設市場', '14:00 返家'] }
+      {
+        day: '01',
+        title: '啟程與那霸初探',
+        color: 'text-[#3b82f6]',
+        items: ['13:00 落地與安置', '16:00 波上宮', '串角串燒'],
+        video: './video1.mp4'
+      },
+      {
+        day: '05',
+        title: '海鮮晨光與滿載而歸',
+        color: 'text-[#10b981]',
+        items: ['牧志公設市場', '前往那霸機場'],
+        video: './video4.mp4'
+      }
     ]
   }
 ];
