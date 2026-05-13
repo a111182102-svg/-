@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   zodiac: '牡羊座',
   socials: [
     { name: 'LinkedIn', url: '#', icon: Linkedin },
-    { name: 'Instagram', url: 'https://www.instagram.com/wumin.__.0327/?hl=zh-tw', icon: Instagram },
+    { name: 'Instagram', url: 'https://www.instagram.com/wumin.__.0327/?hl=zh-tw', icon: Instagram },  
     { name: 'YouTube', url: 'https://www.youtube.com/@-kd8ch', icon: Youtube },
     { name: 'Facebook', url: 'https://www.facebook.com/wu.minmin.37167/', icon: Facebook },
     { name: 'X', url: '#', icon: Twitter },
