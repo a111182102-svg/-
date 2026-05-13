@@ -48,9 +48,18 @@ export const SKILLS = {
     { name: '台語', level: '精通', cert: 'EZ' }
   ],
   professional: [
-    { category: '四小證', items: ['基本安全', '基礎滅火', '基礎急救', '救生艇筏'] },
-    { category: '證照', items: ['進階滅火', '醫療急救', '航行當值'] },
-    { category: '其他證照', items: ['無'] }
+    {
+      category: '四小證',
+      items: ['基本安全', '基礎滅火', '基礎急救', '救生艇筏']
+    },
+    {
+      category: '證照',
+      items: ['進階滅火', '醫療急救', '航行當值']
+    },
+    {
+      category: '其他證照',
+      items: ['無']
+    }
   ]
 };
 
